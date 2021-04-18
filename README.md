@@ -76,6 +76,6 @@ This will generate the following reports
 This is still in early development and there are many areas where this extension can benefit from.
 Here is a preliminary list in no specific order
 - Support other test frameworks, e.g. TestNG
-- Support multiple remote Jacoco servers for different instrumented apps
+- Support multiple remote Jacoco servers for multiple different instrumented apps
 - Enhancements to retrieving source code and compiled classes of apps under tests
 - More testing. Resolve TODO's in this project tests
