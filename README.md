@@ -40,12 +40,15 @@ code itself avoiding different required setup for each build tool, e.g. Gradle, 
  ```
  @JacocoReport(scenario = "Acceptance Tests")
  public class TestClassA {
+ }
  
  @JacocoReport(scenario = "GDPR")
  public class PrivacyTests {
+ }
  
  @JacocoReport(scenario = "GDPR")
  public class OptInOptOutTests {
+ }
    
  
  @JacocoReport(scenario = "Lost and found")
@@ -53,11 +56,11 @@ code itself avoiding different required setup for each build tool, e.g. Gradle, 
     
      @Test
      @JacocoReport(scenario = "Lost and found")
-     public void FindRecordById() {
+     public void FindRecordById() {}
        
      @Test
      @JacocoReport(scenario = "Negative Tests")
-     public void FindNonExistingRecordFail() {
+     public void FindNonExistingRecordFail() {}
  ```     
 This will generate the following reports
 ```
