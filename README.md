@@ -1,6 +1,6 @@
 # Remote Jacoco Coverage Reporting
 [Jacoco](https://github.com/jacoco/jacoco) is a great tool for generating code coverage of unit tests and is capable of generating code coverage from remote
-instrumented runnin JVM apps.
+instrumented JVM apps.
 
 
 This project is a Junit5 extension of Jacoco reporting feature that can generate test scenarios code coverage from remote
