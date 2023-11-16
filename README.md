@@ -40,14 +40,25 @@ code itself avoiding different required setup for each build tool, e.g. Gradle, 
  ```
  @JacocoReport(scenario = "Acceptance Tests")
  public class TestClassA {
+ @Test
+ public void SucceedOnCondition1() {}
+ @Test
+ public void SucceedOnCondition2() {}
+ @Test
+ public void FaileOnCondition3() {}
+
  }
  
  @JacocoReport(scenario = "GDPR")
  public class PrivacyTests {
+....
+....
  }
  
  @JacocoReport(scenario = "GDPR")
  public class OptInOptOutTests {
+.....
+...
  }
    
  
